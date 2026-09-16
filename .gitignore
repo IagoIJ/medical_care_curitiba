@@ -11,12 +11,8 @@ env/
 .ipynb_checkpoints/
 
 # Dados
-data/raw/*
-data/processed/*
-
-# Mantém as pastas
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+data_raw/*
+/data/processed/
 
 # MLflow
 mlruns/
@@ -30,9 +26,10 @@ kaggle.json
 .vscode/
 .idea/
 
-# Linux
+# Sistema
 .DS_Store
 
 # Logs
 *.log
 
+/data_raw/
